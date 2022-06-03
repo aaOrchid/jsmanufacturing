@@ -1,0 +1,31 @@
+current-active{
+    border-top: 4px solid #5D62F9 !important;
+}
+
+.footer-item h3{
+color:#000;
+text-decoration: underline;
+}
+
+
+@media (max-width: 767px){
+    .footer-item h3{
+    text-align:left;
+    }
+
+    .col-xs-12.fourth{
+        width:auto !important;
+    }
+}
+
+.footer .social-links li a{
+    color:#fff !important;
+}
+
+.social-links li a:hover{
+    background-color:#5D62F9 !important;
+}
+.footer-widget{
+width: 980px;
+    margin: auto;
+}
