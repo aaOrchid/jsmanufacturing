@@ -7,6 +7,14 @@ color:#000;
 text-decoration: underline;
 }
 
+.services-img{
+    width:100%;
+}
+
+.lists ul{
+    list-style: circle !important;
+    padding-left: 15px !important;
+}
 
 @media (max-width: 767px){
     .footer-item h3{
@@ -29,3 +37,192 @@ text-decoration: underline;
 width: 980px;
     margin: auto;
 }
+
+.para1 h1, .para1 h2, .para1 h3, .para1 h4, .para1 h5, .para1 p {
+    color:#fff !important;
+}
+
+.btn:hover,
+.btn:active,
+.btn:active:focus,
+.btn:focus {
+color:#5D62F9 !important;
+}
+
+.college-slide .slide-item .bsns-btn a:hover{
+color:#fff !important;
+border: 1px solid #fff;
+text-shadow: 3px 3px 2px #000;
+box-shadow: 3px 3px 10px #00000070;
+}
+
+.navimg {
+    height:150px;
+    background-image: url(../img/ammo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+
+.navimg.ammopages{
+    margin-bottom:15px;
+    height:100px;
+}
+
+.navimg.ammopages-contact{
+    margin-bottom:0px;
+    height:100px;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+#about-us h1{
+    font-size:16px;
+}
+
+.vision{
+    background-image: url(../img/vision.jpeg);
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center center;
+    height:100%;
+    max-height:300px;
+}
+
+.mission{
+    background-image: url(../img/mission.jpeg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+    height:300px;
+    max-height:300px;
+}
+
+.spacer{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .home-logo{
+    vertical-align: middle;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    max-width: 270px;
+    display: flex;
+  }
+
+  .black-bg{
+      background-color:black;
+  }
+
+  .white{
+      color:white;
+      text-align: center;
+  }
+
+  .white h1{
+      font-size:55px !important;
+  }
+  .white p{
+      font-size:20px;
+      margin:0;
+  }
+
+  @media (max-width: 767px){
+.white p {
+    text-align:center;
+}
+
+.white h1{
+    font-size:40px !important;
+}
+  }
+
+  .yellow{
+      color:yellow !important;
+      text-align:center;
+  }
+
+  h2.yellow{
+      padding-top:20px;
+  }
+
+  .red{
+      color:red !important;
+      text-align:center;
+  }
+
+  .black-bg{
+      padding-top:50px;
+      padding-bottom:50px
+  }
+
+  .black-bg .container{
+      padding-left:30px;
+      padding-right:30px;
+  }
+
+  #slider.sitemessage{
+      margin-bottom:0px;
+  }
+
+  .revireRating{
+      color:#5D62F9;
+  }
+
+  #head .social-links i.fa:hover, .footer .social-links li a:hover{
+    color:#9396FB !important;
+  }
+
+  #head .social-links i.fa, .footer .social-links li a{
+    -webkit-transition: all 0.5s linear 0s;
+    -moz-transition: all 0.5s linear 0s;
+    -o-transition: all 0.5s linear 0s;
+    transition: all 0.5s linear 0s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+  }
+
+  .services-box{
+      margin:0px !important;
+      padding-top:10px;
+      padding-bottom:10px;
+      background-color: #ececec;
+  }
+
+  @media (max-width: 767px){
+.newsletter {
+    margin-left: 0px;
+    margin-right: 0px;
+    display:grid;
+    }
+
+    .newsletter .label {
+        width: 100% !important;
+        text-align: center;
+}
+
+  }
+
+  @media screen and (max-width: 991px) {
+    .reverse{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .vision{
+        height:300px;
+        width:100%;
+    }
+  }

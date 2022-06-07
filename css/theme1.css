@@ -65,11 +65,11 @@ ul.page-numbers li a, ul.page-numbers li span {
 p.itemrow-all-data {
     margin-top: 0;
     padding: 10px 8px;
-    background: #fff;
+    background: #ececec;
     color: #000;text-align:center;
         border-radius: 0 0 6px 6px;line-height: 1.4;
 }
-.course p.itemrow-all-data{ height: 160px;}
+.course p.itemrow-all-data{ min-height: 160px; height:100%}
 .sidebar .media-body {color:#000;}
 h2.subhead  {
     font-size: 24px;
@@ -82,6 +82,7 @@ h2.subhead  {
     color: #fff !important;
     text-transform: uppercase;
     font-size: 18px;
+    font-weight: bold;
 }
 .college-slide .slide-item .bsns-btn {
      text-align: center;
@@ -400,7 +401,7 @@ color: #fff !important;
 .sticky-header:not(.no-bg):not(.dark-head):not(.header19):not(.transparent-head) {
     background-color: #5D62F9!important;
 }
-#homeshop h2,#bottomblockhead h2 {color:#fff!important; }
+#homeshop h2,#bottomblockhead h2 {color:#000!important; }
 
 /* .navbar-brand > img {
     left: 0;
@@ -424,7 +425,7 @@ color: #fff !important;
 }
 .top-nav.dropdown.type2{
     background: #5D62F9!important;
-    padding: 3px 8px 3px 10px;margin-top: -8px;
+    padding: 9px 8px 3px 10px;margin-top: -8px;
 	width: auto;
     float: right;
     display: inline-block;
@@ -565,7 +566,7 @@ font-size: 16px; }
     border-top: 0px solid #ccc!important;
     padding: 10px 0 0;
 }
-.travel-wrapper .section-head h2{color: #5D62F9; padding: 5px;}
+.travel-wrapper .section-head h2{color: #000 !important; padding: 5px;}
 .travel-wrapper {
    margin-top: 40px;
 padding-top: 10px;
@@ -1628,6 +1629,7 @@ font-weight: 700;
 padding: 10px 0;
 font-size: 16px !important;
 width: 100%;
+margin-top:10px;
 }
 #calendar_grid_view .itemrow .ckimage img.thumb{
     margin-top:0px !important;

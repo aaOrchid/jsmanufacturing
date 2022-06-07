@@ -68,7 +68,7 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 26px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     color: #000 !important;
 }
 
@@ -105,7 +105,7 @@ a, a:focus, a:hover, a:active {
 
 h1, h2, h3,
 h4, h5, h6 {
-	font-weight: normal;
+	font-weight: bold;
 	margin: 0;
 }
 
@@ -201,7 +201,7 @@ input::-moz-placeholder {
 
 .btn {
     border-radius: 0;
-    border: 0;
+    border: 1px solid #5D62F9;
 }
 
 .btn:hover,
@@ -211,6 +211,8 @@ input::-moz-placeholder {
     outline-offset: 0;
     outline: 0;
     box-shadow: none;
+    background:none !important;
+    border: 1px solid #5D62F9;
 }
 
 /* Sweep To Right */
@@ -314,7 +316,7 @@ input::-moz-placeholder {
 }
 
 .btn-blue {
-    background-color: #000;
+    background-color: #5D62F9;
     text-transform: uppercase;
     font-size: 17px;
     padding: 16px 36px;
@@ -336,7 +338,7 @@ input::-moz-placeholder {
 
 .btn-blue:hover,
 .btn-blue:focus {
-    background-color: #fff;
+    background: none !important;
     border: 1px solid #5D62F9;
     color: #5D62F9 !important;
 }
@@ -754,7 +756,7 @@ input::-moz-placeholder {
 }
 
 .section-head p {
-    color: #fff;
+    color: #000;
     font-size: 16px;
     margin-top:0!important;
 }
@@ -1867,7 +1869,7 @@ body.boxed-mode > section > .overlay {
 .header-top.primary .quick-contact:hover > i,
 .header-top.primary .social-links li a:hover  {
    
-    color: #000;
+    color: #9396FB;
 }
 
 .quick-contact {
@@ -1892,9 +1894,7 @@ width: 28px;
 }
 
 .quick-contact:hover > i {
-    background-color:#000;
-	border-color:#000;
-	color:#fff;
+	color:#9396FB;
 }
 
 .quick-contact > p {
