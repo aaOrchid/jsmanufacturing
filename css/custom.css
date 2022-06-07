@@ -56,6 +56,10 @@ text-shadow: 3px 3px 2px #000;
 box-shadow: 3px 3px 10px #00000070;
 }
 
+.spacer a {
+    color:#fff !important;
+}
+
 .navimg {
     height:150px;
     background-image: url(../img/ammo.jpeg);
